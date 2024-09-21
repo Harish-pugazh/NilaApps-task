@@ -1,0 +1,26 @@
+.course-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.course-details label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.course-details select,
+.course-details input,
+.course-details textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.course-details textarea {
+    resize: none;
+    height: 100px;
+}

@@ -1,0 +1,24 @@
+<div class="course-details">
+    <label>Course Code</label>
+    <select>
+        <option *ngFor="let code of courseDetails.courseCodes">{{ code }}</option>
+    </select>
+
+    <label>Course Name</label>
+    <input type="text" [value]="courseDetails.courseName" readonly>
+
+    <label>Course Type</label>
+    <input type="text" [value]="courseDetails.courseType" readonly>
+
+    <label>Course Period</label>
+    <input type="text" [value]="courseDetails.coursePeriod" readonly>
+
+    <label>Credit</label>
+    <input type="text" [value]="courseDetails.credit" readonly>
+
+    <label>Course Outcome</label>
+    <textarea [value]="courseDetails.courseOutcome" readonly></textarea>
+
+    <label>Map to</label>
+    <input type="text" [value]="courseDetails.mapTo" readonly>
+</div>
