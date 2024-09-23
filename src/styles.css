@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../src/image/website-background-templates.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Light background with some transparency */
+}
